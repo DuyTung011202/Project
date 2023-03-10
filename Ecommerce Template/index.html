@@ -1,0 +1,2266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="./bt5/bootstrap.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <title>Tech Store</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <!-- PC header -->
+                <div class="d-md-none d-none d-lg-block pt-3">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <a href="#">
+                                <div class="logo">
+                                    <img
+                                        class="img-fluid"
+                                        src="./assets/img/logo.png"
+                                        alt=""
+                                    />
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 d-md-block d-sm-none">
+                            <div class="header-phone d-inline-block">
+                                <a href="#" class="pe-4 text-decoration-none">
+                                    <i
+                                        class="fa-solid fa-phone p-2 fa-2x text-secondary d-inline-block"
+                                    ></i>
+                                    <div class="d-inline-block">
+                                        <p class="p-0 m-0 text-secondary">
+                                            Điện thoại
+                                        </p>
+                                        <p class="p-0 text-info">19001267</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="header-email d-inline-block">
+                                <a href="#" class="pe-3 text-decoration-none">
+                                    <i
+                                        class="fa-regular fa-envelope p-2 fa-2x text-secondary d-inline-block"
+                                    ></i>
+                                    <div class="d-inline-block">
+                                        <p class="p-0 m-0 text-secondary">
+                                            Email
+                                        </p>
+                                        <p class="p-0 text-info">
+                                            hello@egany.com
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-block col-md-3">
+                            <div class="form-group py-1">
+                                <input
+                                    type="text"
+                                    name="search"
+                                    id="search"
+                                    class="form-control"
+                                    placeholder="Bạn muốn tìm gì..."
+                                />
+                            </div>
+                        </div>
+                        <div class="d-none d-md-block col-md-1">
+                            <a class="text-decoration-none" href="">
+                                <i
+                                    class="fa-solid fa-location-dot text-info d-block fa-2x"
+                                ></i>
+                                <ins
+                                    class="text-info text-decoration-none d-block"
+                                    >CHI NHÁNH</ins
+                                >
+                            </a>
+                        </div>
+                        <div class="d-none d-md-block col-md-1">
+                            <a class="text-decoration-none" href="">
+                                <i
+                                    class="fa-solid fa-cart-shopping text-info d-block fa-2x"
+                                ></i>
+                                <ins
+                                    class="text-info text-decoration-none d-block"
+                                    >GIỎ HÀNG</ins
+                                >
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row m-0">
+                        <nav
+                            class="navbar navbar-expand-lg navbar-light bg-info"
+                        >
+                            <div class="container-fluid m-0">
+                                <button
+                                    class="navbar-toggler"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#navbarScroll"
+                                    aria-controls="navbarScroll"
+                                    aria-expanded="false"
+                                    aria-label="Toggle navigation"
+                                >
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div
+                                    class="collapse navbar-collapse"
+                                    id="navbarScroll"
+                                >
+                                    <ul
+                                        class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll w-100 justify-content-between"
+                                        style="--bs-scroll-height: 100px"
+                                    >
+                                        <li class="nav-item dropdown">
+                                            <a
+                                                class="nav-link text-dark"
+                                                href="#"
+                                                id="navbarScrollingDropdown"
+                                                role="button"
+                                                data-bs-toggle="dropdown"
+                                                aria-expanded="false"
+                                            >
+                                                TIVI
+                                            </a>
+                                            <ul
+                                                class="dropdown-menu"
+                                                aria-labelledby="navbarScrollingDropdown"
+                                            >
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Tivi Sony</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Tivi Samsung</a
+                                                    >
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Tivi TCL</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Tivi LG</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a
+                                                class="nav-link text-dark dropdown-toggle"
+                                                href="#"
+                                                id="navbarScrollingDropdown"
+                                                role="button"
+                                                data-bs-toggle="dropdown"
+                                                aria-expanded="false"
+                                            >
+                                                TỦ LẠNH
+                                            </a>
+                                            <ul
+                                                class="dropdown-menu"
+                                                aria-labelledby="navbarScrollingDropdown"
+                                            >
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Tủ lạnh Sanyo</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Tủ lạnh Panasonic</a
+                                                    >
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Tủ lạnh Sharp</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a
+                                                class="nav-link text-dark dropdown-toggle"
+                                                href="#"
+                                                id="navbarScrollingDropdown"
+                                                role="button"
+                                                data-bs-toggle="dropdown"
+                                                aria-expanded="false"
+                                            >
+                                                MÁY LẠNH
+                                            </a>
+                                            <ul
+                                                class="dropdown-menu"
+                                                aria-labelledby="navbarScrollingDropdown"
+                                            >
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Máy lạnh Panasonic</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Máy lạnh Daikin</a
+                                                    >
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Máy lạnh LG</a
+                                                    >
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Máy lạnh Sharp</a
+                                                    >
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Máy lạnh Mitsubishi</a
+                                                    >
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Máy lạnh Samsung</a
+                                                    >
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Máy lạnh Sanyo</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a
+                                                class="nav-link text-dark dropdown-toggle"
+                                                href="#"
+                                                id="navbarScrollingDropdown"
+                                                role="button"
+                                                data-bs-toggle="dropdown"
+                                                aria-expanded="false"
+                                            >
+                                                GIA DỤNG
+                                            </a>
+                                            <ul
+                                                class="dropdown-menu"
+                                                aria-labelledby="navbarScrollingDropdown"
+                                            >
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Bếp ủi</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Bếp điện</a
+                                                    >
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Bếp ga</a
+                                                    >
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Bình đun siêu tốc</a
+                                                    >
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Bình thủy điện</a
+                                                    >
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Lẩu điện</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a
+                                                class="nav-link text-dark dropdown-toggle"
+                                                href="#"
+                                                id="navbarScrollingDropdown"
+                                                role="button"
+                                                data-bs-toggle="dropdown"
+                                                aria-expanded="false"
+                                            >
+                                                MÁY GIẶT
+                                            </a>
+                                            <ul
+                                                class="dropdown-menu"
+                                                aria-labelledby="navbarScrollingDropdown"
+                                            >
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Máy giặt Panasonic</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Máy giặt Daikin</a
+                                                    >
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Máy giặt LG</a
+                                                    >
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Máy giặt Sharp</a
+                                                    >
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Máy giặt Mitsubishi</a
+                                                    >
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Máy giặt Samsung</a
+                                                    >
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        class="dropdown-item"
+                                                        href="#"
+                                                        >Máy giặt Sanyo</a
+                                                    >
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a
+                                                class="nav-link text-dark"
+                                                aria-current="page"
+                                                href="#"
+                                                >MÁY NƯỚC NÓNG</a
+                                            >
+                                        </li>
+                                        <li class="nav-item">
+                                            <a
+                                                class="nav-link text-dark"
+                                                aria-current="page"
+                                                href="#"
+                                                >ĐIỆN THOẠI</a
+                                            >
+                                        </li>
+                                        <li class="nav-item">
+                                            <a
+                                                class="nav-link text-dark"
+                                                aria-current="page"
+                                                href="#"
+                                                >MÁY TÍNH BẢNG</a
+                                            >
+                                        </li>
+                                        <li class="nav-item">
+                                            <a
+                                                class="nav-link text-dark"
+                                                aria-current="page"
+                                                href="#"
+                                                >LAPTOP</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Mobile header -->
+                <div class="d-md-block d-lg-none pb-3">
+                    <div class="row">
+                        <div class="col-2 col-sm-2 m-auto">
+                            <nav class="navbar bg-body-tertiary">
+                                <div class="container-fluid">
+                                    <button
+                                        class="navbar-toggler"
+                                        type="button"
+                                        data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasNavbar"
+                                        aria-controls="offcanvasNavbar"
+                                    >
+                                        <span
+                                            class="navbar-toggler-icon"
+                                        ></span>
+                                    </button>
+                                    <div
+                                        class="offcanvas offcanvas-start"
+                                        tabindex="-1"
+                                        id="offcanvasNavbar"
+                                        aria-labelledby="offcanvasNavbarLabel"
+                                    >
+                                        <div class="offcanvas-header">
+                                            <h5
+                                                class="offcanvas-title"
+                                                id="offcanvasNavbarLabel"
+                                            >
+                                                Danh mục
+                                            </h5>
+                                            <button
+                                                type="button"
+                                                class="btn-close"
+                                                data-bs-dismiss="offcanvas"
+                                                aria-label="Close"
+                                            ></button>
+                                        </div>
+                                        <div class="offcanvas-body">
+                                            <ul
+                                                class="navbar-nav justify-content-end flex-grow-1 pe-3"
+                                            >
+                                                <li class="nav-item dropdown">
+                                                    <a
+                                                        class="nav-link text-dark d-flex justify-content-between"
+                                                        href="#"
+                                                        id="navbarScrollingDropdown"
+                                                        role="button"
+                                                        data-bs-toggle="dropdown"
+                                                        aria-expanded="false"
+                                                    >
+                                                        TIVI
+                                                        <i
+                                                            class="fa-solid fa-plus"
+                                                        ></i>
+                                                    </a>
+
+                                                    <ul
+                                                        class="dropdown-menu"
+                                                        aria-labelledby="navbarScrollingDropdown"
+                                                    >
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Tivi Sony</a
+                                                            >
+                                                        </li>
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Tivi Samsung</a
+                                                            >
+                                                        </li>
+
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Tivi TCL</a
+                                                            >
+                                                        </li>
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Tivi LG</a
+                                                            >
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a
+                                                        class="nav-link text-dark d-flex justify-content-between"
+                                                        href="#"
+                                                        id="navbarScrollingDropdown"
+                                                        role="button"
+                                                        data-bs-toggle="dropdown"
+                                                        aria-expanded="false"
+                                                    >
+                                                        TỦ LẠNH
+                                                        <i
+                                                            class="fa-solid fa-plus"
+                                                        ></i>
+                                                    </a>
+                                                    <ul
+                                                        class="dropdown-menu"
+                                                        aria-labelledby="navbarScrollingDropdown"
+                                                    >
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Tủ lạnh
+                                                                Sanyo</a
+                                                            >
+                                                        </li>
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Tủ lạnh
+                                                                Panasonic</a
+                                                            >
+                                                        </li>
+
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Tủ lạnh
+                                                                Sharp</a
+                                                            >
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a
+                                                        class="nav-link text-dark d-flex justify-content-between"
+                                                        href="#"
+                                                        id="navbarScrollingDropdown"
+                                                        role="button"
+                                                        data-bs-toggle="dropdown"
+                                                        aria-expanded="false"
+                                                    >
+                                                        MÁY LẠNH
+                                                        <i
+                                                            class="fa-solid fa-plus"
+                                                        ></i>
+                                                    </a>
+                                                    <ul
+                                                        class="dropdown-menu"
+                                                        aria-labelledby="navbarScrollingDropdown"
+                                                    >
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Máy lạnh
+                                                                Panasonic</a
+                                                            >
+                                                        </li>
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Máy lạnh
+                                                                Daikin</a
+                                                            >
+                                                        </li>
+
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Máy lạnh LG</a
+                                                            >
+                                                        </li>
+
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Máy lạnh
+                                                                Sharp</a
+                                                            >
+                                                        </li>
+
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Máy lạnh
+                                                                Mitsubishi</a
+                                                            >
+                                                        </li>
+
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Máy lạnh
+                                                                Samsung</a
+                                                            >
+                                                        </li>
+
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Máy lạnh
+                                                                Sanyo</a
+                                                            >
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a
+                                                        class="nav-link text-dark d-flex justify-content-between"
+                                                        href="#"
+                                                        id="navbarScrollingDropdown"
+                                                        role="button"
+                                                        data-bs-toggle="dropdown"
+                                                        aria-expanded="false"
+                                                    >
+                                                        GIA DỤNG
+                                                        <i
+                                                            class="fa-solid fa-plus"
+                                                        ></i>
+                                                    </a>
+                                                    <ul
+                                                        class="dropdown-menu"
+                                                        aria-labelledby="navbarScrollingDropdown"
+                                                    >
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Bếp ủi</a
+                                                            >
+                                                        </li>
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Bếp điện</a
+                                                            >
+                                                        </li>
+
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Bếp ga</a
+                                                            >
+                                                        </li>
+
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Bình đun siêu
+                                                                tốc</a
+                                                            >
+                                                        </li>
+
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Bình thủy
+                                                                điện</a
+                                                            >
+                                                        </li>
+
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Lẩu điện</a
+                                                            >
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a
+                                                        class="nav-link text-dark d-flex justify-content-between"
+                                                        href="#"
+                                                        id="navbarScrollingDropdown"
+                                                        role="button"
+                                                        data-bs-toggle="dropdown"
+                                                        aria-expanded="false"
+                                                    >
+                                                        MÁY GIẶT
+                                                        <i
+                                                            class="fa-solid fa-plus"
+                                                        ></i>
+                                                    </a>
+                                                    <ul
+                                                        class="dropdown-menu"
+                                                        aria-labelledby="navbarScrollingDropdown"
+                                                    >
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Máy giặt
+                                                                Panasonic</a
+                                                            >
+                                                        </li>
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Máy giặt
+                                                                Daikin</a
+                                                            >
+                                                        </li>
+
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Máy giặt LG</a
+                                                            >
+                                                        </li>
+
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Máy giặt
+                                                                Sharp</a
+                                                            >
+                                                        </li>
+
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Máy giặt
+                                                                Mitsubishi</a
+                                                            >
+                                                        </li>
+
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Máy giặt
+                                                                Samsung</a
+                                                            >
+                                                        </li>
+
+                                                        <li>
+                                                            <a
+                                                                class="dropdown-item"
+                                                                href="#"
+                                                                >Máy giặt
+                                                                Sanyo</a
+                                                            >
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a
+                                                        class="nav-link text-dark"
+                                                        aria-current="page"
+                                                        href="#"
+                                                        >MÁY NƯỚC NÓNG
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a
+                                                        class="nav-link text-dark"
+                                                        aria-current="page"
+                                                        href="#"
+                                                        >ĐIỆN THOẠI</a
+                                                    >
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a
+                                                        class="nav-link text-dark"
+                                                        aria-current="page"
+                                                        href="#"
+                                                        >MÁY TÍNH BẢNG
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a
+                                                        class="nav-link text-dark"
+                                                        aria-current="page"
+                                                        href="#"
+                                                        >LAPTOP
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="col-6 col-sm-6">
+                            <a href="#">
+                                <div class="logo">
+                                    <img
+                                        class="img-fluid"
+                                        src="./assets/img/logo.png"
+                                        alt=""
+                                    />
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-2 col-sm-2 m-auto">
+                            <a class="text-decoration-none" href="">
+                                <i
+                                    class="fa-solid fa-location-dot text-info d-block fa-2x"
+                                ></i>
+                            </a>
+                        </div>
+
+                        <div class="col-2 col-sm-2 m-auto">
+                            <a class="text-decoration-none" href="">
+                                <i
+                                    class="fa-solid fa-cart-shopping text-info d-block fa-2x"
+                                ></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12">
+                            <div class="form-group py-1">
+                                <input
+                                    type="text"
+                                    name="search"
+                                    id="search"
+                                    class="form-control"
+                                    placeholder="Bạn muốn tìm gì..."
+                                />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- End mobile header -->
+                </div>
+            </header>
+
+            <main>
+                <!-- Banner -->
+                <section class="banner">
+                    <div class="row pb-3">
+                        <div class="col-md-8 pe-md-0">
+                            <div
+                                id="carouselExampleControls"
+                                class="carousel slide"
+                                data-bs-ride="carousel"
+                            >
+                                <div class="carousel-inner">
+                                    <a href="#" class="carousel-item active">
+                                        <img
+                                            src="./assets/img/slideshow_1.png"
+                                            class="d-block w-100"
+                                            alt="..."
+                                        />
+                                    </a>
+                                    <a href="#" class="carousel-item">
+                                        <img
+                                            src="./assets/img/slideshow_4.png"
+                                            class="d-block w-100"
+                                            alt="..."
+                                        />
+                                    </a>
+                                </div>
+                                <button
+                                    class="carousel-control-prev"
+                                    type="button"
+                                    data-bs-target="#carouselExampleControls"
+                                    data-bs-slide="prev"
+                                >
+                                    <span
+                                        class="carousel-control-prev-icon"
+                                        aria-hidden="true"
+                                    ></span>
+                                    <span class="visually-hidden"
+                                        >Previous</span
+                                    >
+                                </button>
+                                <button
+                                    class="carousel-control-next"
+                                    type="button"
+                                    data-bs-target="#carouselExampleControls"
+                                    data-bs-slide="next"
+                                >
+                                    <span
+                                        class="carousel-control-next-icon"
+                                        aria-hidden="true"
+                                    ></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ps-md-0">
+                            <img
+                                class="img-fluid w-100 h-100"
+                                src="./assets/img/banner_top_1.png"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </section>
+                <!-- End Banner -->
+
+                <!-- Items -->
+                <section id="items-container">
+                    <div id="items">
+                        <div class="row pb-2">
+                            <div class="items-type">
+                                <ul
+                                    class="nav border-bottom border-info border-3"
+                                >
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link active fw-bold text-white bg-info"
+                                            href="#"
+                                            >TIVI</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link fw-bold text-info"
+                                            href="#"
+                                            >TIVI SONY</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link fw-bold text-info"
+                                            href="#"
+                                            >TIVI SAMSUNG</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link fw-bold text-info"
+                                            href="#"
+                                            >TIVI TCL</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link fw-bold text-info"
+                                            href="#"
+                                            >TIVI LG</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link fw-bold text-info"
+                                            href="#"
+                                            >TIVI TOSHIBA</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link fw-bold text-info"
+                                            href="#"
+                                            >TIVI SKYWORTH</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link fw-bold text-info"
+                                            href="#"
+                                            >TIVI PANASONIC</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div
+                            class="row row-cols-md-5 row-cols-sm-2 row-cols-1 pb-3"
+                        >
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-1.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Android Tivi Sony 43 inch
+                                                    KDL-43W800C</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-2.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Android Tivi Sony 43 inch
+                                                    KDL-43W800C</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-3.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Android Tivi Sony 43 inch
+                                                    KDL-43W800C</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-4.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Android Tivi Sony 43 inch
+                                                    KDL-43W800C</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-5.jpg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Android Tivi Sony 43 inch
+                                                    KDL-43W800C</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-6.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Android Tivi Sony 43 inch
+                                                    KDL-43W800C</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-7.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Android Tivi Sony 43 inch
+                                                    KDL-43W800C</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-1.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Android Tivi Sony 43 inch
+                                                    KDL-43W800C</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-1.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Android Tivi Sony 43 inch
+                                                    KDL-43W800C</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-1.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Android Tivi Sony 43 inch
+                                                    KDL-43W800C</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="items">
+                        <div class="row pb-2">
+                            <div class="items-type">
+                                <ul
+                                    class="nav border-bottom border-danger border-3"
+                                >
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link active fw-bold text-white bg-danger"
+                                            href="#"
+                                            >TỦ LẠNH</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link fw-bold text-danger"
+                                            href="#"
+                                            >TỦ LẠNH SANYO</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link fw-bold text-danger"
+                                            href="#"
+                                            >TỦ LẠNH PANASONIC</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link fw-bold text-danger"
+                                            href="#"
+                                            >TỦ LẠNH SHARP</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link fw-bold text-danger"
+                                            href="#"
+                                            >TỦ LẠNH TOSHIBA</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div
+                            class="row row-cols-md-5 row-cols-sm-2 row-cols-1 pb-3"
+                        >
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-8.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Tủ Lạnh Aqua Aqr-125an
+                                                    (Ss)</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-8.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Tủ Lạnh Aqua Aqr-125an
+                                                    (Ss)</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-8.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Tủ Lạnh Aqua Aqr-125an
+                                                    (Ss)</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-8.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Tủ Lạnh Aqua Aqr-125an
+                                                    (Ss)</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-8.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Tủ Lạnh Aqua Aqr-125an
+                                                    (Ss)</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-8.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Tủ Lạnh Aqua Aqr-125an
+                                                    (Ss)</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-8.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Tủ Lạnh Aqua Aqr-125an
+                                                    (Ss)</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-8.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Tủ Lạnh Aqua Aqr-125an
+                                                    (Ss)</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-8.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Tủ Lạnh Aqua Aqr-125an
+                                                    (Ss)</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-8.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black"
+                                                    href="#"
+                                                    >Tủ Lạnh Aqua Aqr-125an
+                                                    (Ss)</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="items">
+                        <div class="row pb-2">
+                            <div class="items-type">
+                                <ul
+                                    class="nav border-bottom border-success border-3"
+                                >
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link active fw-bold text-white bg-success"
+                                            href="#"
+                                            >GIA DỤNG</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link fw-bold text-success"
+                                            href="#"
+                                            >BÀN ỦI</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link fw-bold text-success"
+                                            href="#"
+                                            >BẾP ĐIỆN</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link fw-bold text-success"
+                                            href="#"
+                                            >BẾP GAS</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link fw-bold text-success"
+                                            href="#"
+                                            >BÌNH ĐUN SIÊU TỐC</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link fw-bold text-success"
+                                            href="#"
+                                            >BÌNH THỦY ĐIỆN</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link fw-bold text-success"
+                                            href="#"
+                                            >BỘ NỒI</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="row row-cols-md-5 row-cols-sm-2 row-cols-1">
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-9.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Bàn Ủi Philips Gc504</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-9.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Bàn Ủi Philips Gc504</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-9.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Bàn Ủi Philips Gc504</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-9.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Bàn Ủi Philips Gc504</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-9.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Bàn Ủi Philips Gc504</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-9.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Bàn Ủi Philips Gc504</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-9.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Bàn Ủi Philips Gc504</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-9.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Bàn Ủi Philips Gc504</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-9.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Bàn Ủi Philips Gc504</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="product-detail">
+                                    <div class="product-img">
+                                        <img
+                                            class="img-fluid"
+                                            src="./assets/img/product-9.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-title">
+                                            <h4>
+                                                <a
+                                                    class="text-decoration-none text-black fs-5"
+                                                    href="#"
+                                                    >Bàn Ủi Philips Gc504</a
+                                                >
+                                            </h4>
+                                            <span>EGA-SKU-27</span>
+                                        </div>
+
+                                        <div class="product-price">
+                                            <ins
+                                                class="text-decoration-none text-danger d-block"
+                                                >13,900,000₫</ins
+                                            >
+                                            <del>14,500,000₫</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Items -->
+
+                <section id="voucher">
+                    <div class="row bg-secondary py-2">
+                        <div
+                            class="col-sm-12 col-md-8 d-md-flex align-items-center"
+                        >
+                            <div class="col-md-6 d-flex align-items-center">
+                                <i
+                                    class="fa-regular fa-envelope p-2 fa-2x text-white"
+                                >
+                                </i>
+                                <p class="m-auto text-white">
+                                    ĐĂNG KÝ EMAIL ĐỂ NHẬN NGAY VOUCHER
+                                </p>
+                            </div>
+                            <div class="input-group">
+                                <input
+                                    type="text"
+                                    class="form-control col-md-6 position-relative z"
+                                    placeholder="Nhập email của bạn"
+                                />
+                                <button
+                                    class="btn bg-black text-white position-absolute end-0 border z-3"
+                                    type="button"
+                                    id="button-addon1"
+                                >
+                                    Đăng ký
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-4 text-sm-center p-3">
+                            <a class="" href="#"
+                                ><i
+                                    class="fa-brands fa-square-facebook fa-3x"
+                                ></i
+                            ></a>
+                            <a class="" href="#"
+                                ><i
+                                    class="fa-brands fa-square-twitter fa-3x"
+                                ></i
+                            ></a>
+                            <a class="" href="#"
+                                ><i
+                                    class="fa-brands fa-square-google-plus fa-3x"
+                                ></i
+                            ></a>
+                            <a class="" href="#"
+                                ><i
+                                    class="fa-brands fa-square-instagram fa-3x"
+                                ></i
+                            ></a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <div class="row pt-4 contact-container bg-dark-subtle">
+                    <div class="contact col-md-2 col-sm-12">
+                        <img
+                            class="img-fluid"
+                            src="./assets/img/logo.png"
+                            alt=""
+                        />
+                        <p class="text-secondary">
+                            Chúng tôi tin chất lượng là dịch vụ tốt nhất.
+                        </p>
+                    </div>
+                    <div class="contact col-md-2 col-sm-12">
+                        <h6 class="text-secondary">GIỚI THIỆU</h6>
+                        <ul class="text-secondary">
+                            <li>
+                                <a
+                                    class="text-decoration-none text-secondary"
+                                    href=""
+                                    >Trang chủ</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-decoration-none text-secondary"
+                                    href=""
+                                    >Sản phẩm</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-decoration-none text-secondary"
+                                    href=""
+                                    >Giới thiệu</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-decoration-none text-secondary"
+                                    href=""
+                                    >Blog</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact col-md-2 col-sm-12">
+                        <h6 class="text-secondary">HỖ TRỢ KHÁCH HÀNG</h6>
+                        <ul class="text-secondary">
+                            <li>
+                                <a
+                                    class="text-decoration-none text-secondary"
+                                    href=""
+                                    >Tìm kiếm</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-decoration-none text-secondary"
+                                    href=""
+                                    >Giới thiệu</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact col-md-2 col-sm-12 mb-3">
+                        <h6 class="text-secondary">LIÊN HỆ</h6>
+                        <p class="text-secondary m-0">
+                            Kênh mua sắm trực tuyến giá tốt hàng đầu Việt Nam
+                        </p>
+                        <div id="address">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span class="text-secondary"
+                                >61/2 Quang Trung, P.10 Q. Gò Vấp, TP. HCM</span
+                            >
+                        </div>
+                        <div id="phone">
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="#" class="text-decoration-none"
+                                >(91) 8547 632521</a
+                            >
+                        </div>
+                        <div id="email">
+                            <i class="fa-regular fa-envelope"></i>
+                            <a href="#" class="text-decoration-none"
+                                >hello@egany.com</a
+                            >
+                        </div>
+                    </div>
+                    <div class="contact col-md-2 col-sm-12 mb-3">
+                        <h6 class="text-secondary">ĐƯỢC CHỨNG NHẬN</h6>
+                        <img
+                            class="img-fluid"
+                            src="./assets/img/register_img.PNG"
+                            alt=""
+                        />
+                    </div>
+                    <div class="contact col-md-2 col-sm-12">
+                        <h6 class="text-secondary">HÌNH THỨC THANH TOÁN</h6>
+                        <img
+                            class="img-fluid"
+                            src="./assets/img/payment_img.PNG"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script src="./bt5/bootstrap.bundle.js"></script>
+    </body>
+</html>
