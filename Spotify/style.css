@@ -1,0 +1,262 @@
+/* Home  */
+.nav-item {
+     opacity: 0.75;
+ }
+
+ .nav-item:hover {
+     opacity: 1;
+     cursor: pointer;
+ }
+
+ .truncate-2-lines {
+     overflow: hidden;
+     display: -webkit-box;
+     -webkit-line-clamp: 2;
+     -webkit-box-orient: vertical;
+ }
+
+ .bg-dark-subtle {
+     background-color: #4d4d4d14 !important;
+ }
+
+ .list-items:hover {
+     cursor: pointer;
+ }
+
+ .list-items:hover .bg-dark-subtle {
+     background-color: #c5bebe14 !important;
+ }
+
+/* Search */
+@media only screen and (max-width: 576px) {
+    .tab__2-item {
+        height: 125px;
+    }
+
+    .tab__2-item-image {
+        transform: rotate(25deg);
+        top: 50%;
+        left: 50%;
+    }
+
+}
+
+@media only screen and (min-width: 576px) {
+    .tab__2-item {
+        height: 145px;
+    }
+
+    .tab__2-item-image {
+        transform: rotate(25deg);
+        top: 50%;
+        left: 70%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .tab__2-item-image {
+        transform: rotate(25deg);
+        top: 50%;
+        left: 40%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .tab__2-item {
+        height: 180px;
+    }
+
+    .tab__2-item-image {
+        transform: rotate(25deg);
+        top: 50%;
+        left: 50%;
+    }
+}
+
+.tab__2-item-1 {
+    background-color: rgb(39, 133, 106);
+}
+
+.tab__2-item-2, .tab__2-item-24 {
+    background-color: rgb(30, 50, 100);
+}
+
+.tab__2-item-3, .tab__2-item-5, .tab__2-item-13, .tab__2-item-22 {
+    background-color: rgb(141, 103, 171);
+}
+
+.tab__2-item-4 {
+    background-color: rgb(232, 17, 91);
+}
+
+.tab__2-item-6, .tab__2-item-15 {
+    background-color: rgb(115, 88, 255);
+}
+
+.tab__2-item-7, .tab__2-item-25 {
+    background-color: rgb(180, 155, 200);
+}
+
+.tab__2-item-8, .tab__2-item-14  {
+    background-color: rgb(20, 138, 8);
+}
+
+.tab__2-item-9 {
+    background-color: rgb(240, 55, 165);
+}
+
+.tab__2-item-10 {
+    background-color: rgb(156, 240, 225);
+}
+
+.tab__2-item-11 {
+    background-color: rgb(140, 25, 50);
+}
+
+.tab__2-item-12 {
+    background-color: rgb(215, 242, 125);
+}
+
+.tab__2-item-16 {
+    background-color: rgb(175, 40, 150);
+}
+
+.tab__2-item-17 {
+    background-color: rgb(235, 30, 50);
+}
+
+.tab__2-item-18 {
+    background-color: rgb(20, 138, 8);
+}
+
+.tab__2-item-19 {
+    background-color: rgb(13, 115, 236);
+}
+
+.tab__2-item-20, .tab__2-item-21 {
+    background-color: rgb(71, 125, 149);
+}
+.tab__2-item-23 {
+    background-color: rgb(80, 155, 245)
+}
+/* page-3 */
+.liked__playlists {
+    background: linear-gradient(to bottom right,
+            purple,
+            pink);
+    height: 200px;
+    transition: 0.5s ease;
+}
+
+.liked__playlists:hover {
+    cursor: pointer;
+}
+
+
+.liked__playlists-button {
+    transition: .5s ease;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.liked__playlists:hover .liked__playlists-button {
+    opacity: 1;
+}
+
+/* page-4 */
+.user__playlist {
+   background: linear-gradient(#565656, #2c2c2c)
+}
+.user__playlist-content {
+    height: 1000px;
+}
+
+
+
+/* page-5 */
+.liked__songs-title {
+background: linear-gradient(#533ca1, #2a1e51)
+}
+.liked__songs-title-btn {
+  
+     background: linear-gradient(to bottom right,
+                #4724ae,
+                #7b9087);
+       
+}
+.liked__songs-xs-title {
+   background: linear-gradient(#815fee, #6e6d6d)
+}
+
+.liked__songs-content {
+
+    background: linear-gradient(to bottom right,
+                #1d1635,
+                #1a152c);
+        
+}
+.overlay {
+    transition: opacity .5s ease;
+    background-color: rgba(172, 170, 170, 0.5);
+    opacity: 0;
+}
+
+.liked__songs-item:hover {
+    cursor: pointer;
+}
+
+.liked__songs-item:hover .overlay {
+    opacity: 1;
+}
+
+.play_button {
+    display: none;
+}
+
+.liked__songs-item:hover .numerical_order {
+    display: none;
+}
+
+.liked__songs-item:hover .play_button {
+    display: block;
+}
+
+
+
+ /* sign in-sign up  */
+.mw-500 {
+      max-width: 500px;
+  }
+.btn-facebook {
+    background-color: #384f81;
+}
+ 
+.btn-facebook:hover {
+      background-color: #536798;
+}
+
+.btn-apple {
+      background-color: black;
+}
+.btn-apple:hover {
+      background-color: rgb(92, 92, 91);
+}
+
+.btn-google:hover {
+      background-color: rgb(170, 170, 169);
+}
+.btn-success {
+      background-color: #1eb91ea2;
+}
+
+ 
+  
+
+
+  
+
+
+  
+

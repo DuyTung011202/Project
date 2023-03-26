@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./bt5/bootstrap.min.css" />
+        <link rel="stylesheet" href="./carousel/slick-theme.css" />
+        <link rel="stylesheet" href="./carousel/slick.css" />
+        <title>Spotify - Trang chủ</title>
+        <link
+            rel="icon"
+            href="./assets/img/icons8-spotify-50.png"
+            type="image/x-icon"
+        />
+
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="./sidebar.css" />
+        <title>Document</title>
+    </head>
+    <body id="body-pd">
+        <div class="container-fluid">
+            <header
+                class="header bg-black d-flex align-items-center"
+                id="header"
+            >
+                <div class="row justify-content-between w-100">
+                    <div
+                        class="d-flex col-6 col-md-6 col-lg-6 justify-content-start"
+                    >
+                        <div class="header_toggle">
+                            <i
+                                class="fa-solid fa-bars text-white"
+                                id="header-toggle"
+                            ></i>
+                        </div>
+                        <div class="d-flex ms-3 d-none d-md-flex">
+                            <button class="bg-black border-0 text-white">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+                            <button class="bg-black border-0 text-white">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="col-6 col-md-6 col-lg-6 d-flex align-items-center justify-content-end"
+                    >
+                        <div
+                            class="me-3 d-none d-sm-block d-md-block d-lg-block"
+                        >
+                            <a
+                                href="./signUp.html"
+                                class="p-3 text-decoration-none text-white"
+                            >
+                                Đăng ký
+                            </a>
+                            <a
+                                href="./signIn.html"
+                                class="p-3 text-decoration-none text-white"
+                            >
+                                Đăng nhập
+                            </a>
+                        </div>
+                        <div class="d-block d-sm-none d-md-none d-lg-none">
+                            <button
+                                type="button"
+                                class="btn btn-link position-relative text-white"
+                            >
+                                <i class="fa-solid fa-bell"></i>
+                            </button>
+                        </div>
+
+                        <div
+                            class="dropdown d-block d-sm-none d-md-none d-lg-none"
+                        >
+                            <button
+                                class="btn btn-link text-white"
+                                type="button"
+                                id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                <i class="fa-solid fa-gear"></i>
+                            </button>
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="dropdownMenuButton1"
+                            >
+                                <li>
+                                    <a
+                                        href="./signUp.html"
+                                        class="p-3 text-decoration-none text-black"
+                                    >
+                                        Đăng ký
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="./signIn.html"
+                                        class="p-3 text-decoration-none text-black"
+                                    >
+                                        Đăng nhập
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="l-navbar bg-black" id="nav-bar">
+                <nav class="nav">
+                    <div>
+                        <a href="#" class="nav_logo">
+                            <i class="fa-brands fa-spotify nav_logo-icon"></i>
+                            <span class="nav_logo-name">Spotify</span>
+                        </a>
+                        <div class="nav_list">
+                            <div>
+                                <a href="./index.html" class="nav_link active">
+                                    <i class="fa-solid fa-house nav_icon"></i>
+                                    <span class="nav_name">Trang chủ</span>
+                                </a>
+                                <a href="./searchPage.html" class="nav_link">
+                                    <i
+                                        class="fa-solid fa-magnifying-glass nav_icon"
+                                    ></i>
+                                    <span class="nav_name">Tìm kiếm</span>
+                                </a>
+                                <a href="./libraryPage.html" class="nav_link">
+                                    <i
+                                        class="fa-solid fa-bars-staggered nav_icon"
+                                    ></i>
+                                    <span class="nav_name">Thư viện</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="./playListPage.html" class="nav_link">
+                                    <i
+                                        class="fa-solid fa-square-plus nav_icon"
+                                    ></i>
+                                    <span class="nav_name">Tạo playlist</span>
+                                </a>
+                                <a href="" class="nav_link">
+                                    <i class="fa-regular fa-heart nav_icon"></i>
+                                    <span class="nav_name"
+                                        >Bài hát đã thích</span
+                                    >
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!--Container Main start-->
+            <main class="height-100 bg-light">
+                <div class="row bg-dark">
+                    <div id="page_1" class="">
+                        <div class="p-3">
+                            <div
+                                class="text-white d-flex justify-content-between align-items-center"
+                            >
+                                <a
+                                    href="#"
+                                    class="fs-4 text-decoration-none text-white fw-bolder"
+                                    >Tập trung</a
+                                >
+                                <span
+                                    ><a
+                                        class="text-decoration-none text-secondary"
+                                        href="#"
+                                        >Hiện tất cả</a
+                                    ></span
+                                >
+                            </div>
+                            <div
+                                class="row p-3 justify-content-around d-none d-sm-none d-lg-flex d-md-flex"
+                            >
+                                <div
+                                    class="col-lg-2 list-items col-md-3 bg-dark-subtle p-3"
+                                >
+                                    <img
+                                        class="rounded-2 img-fluid shadow"
+                                        src="./assets/img/page-1/pic-1.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">
+                                        Peaceful Piano
+                                    </h6>
+                                    <p class="text-secondary truncate-2-lines">
+                                        Relax and indulge with beautiful piano
+                                        pieces
+                                    </p>
+                                </div>
+                                <div
+                                    class="col-lg-2 list-items col-md-3 bg-dark-subtle p-3"
+                                >
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-2.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">Deep Focus</h6>
+                                    <p class="text-secondary truncate-2-lines">
+                                        Keep calm and focus with ambient and
+                                        post
+                                    </p>
+                                </div>
+                                <div
+                                    class="col-lg-2 list-items col-md-3 bg-dark-subtle p-3"
+                                >
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-3.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">
+                                        Instrumental Study
+                                    </h6>
+                                    <p class="text-secondary truncate-2-lines">
+                                        Focus with soft study music in the
+                                        background
+                                    </p>
+                                </div>
+                                <div
+                                    class="col-lg-2 list-items col-md-3 bg-dark-subtle p-3"
+                                >
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-4.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">Jazz Vibes</h6>
+                                    <p class="text-secondary truncate-2-lines">
+                                        The original chill instrumental beats
+                                    </p>
+                                </div>
+                                <div
+                                    class="col-lg-2 list-items d-md-none d-lg-block bg-dark-subtle p-3"
+                                >
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-5.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">Focus Flow</h6>
+                                    <p class="text-secondary truncate-2-lines">
+                                        Uptempo instrumental hip hop beats
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="carousel p-md-3 p-1 d-block d-sm-block d-lg-none d-md-none"
+                            >
+                                <div class="bg-dark-subtle p-3 me-4">
+                                    <img
+                                        class="rounded-2 img-fluid shadow"
+                                        src="./assets/img/page-1/pic-1.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">
+                                        Peaceful Piano
+                                    </h6>
+                                    <p class="text-secondary text-truncate">
+                                        Relax and indulge with beautiful piano
+                                        pieces
+                                    </p>
+                                </div>
+                                <div class="bg-dark-subtle p-3 me-4">
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-2.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">Deep Focus</h6>
+                                    <p class="text-secondary text-truncate">
+                                        Keep calm and focus with ambient and
+                                        post
+                                    </p>
+                                </div>
+                                <div class="bg-dark-subtle p-3 me-4">
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-3.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">
+                                        Instrumental Study
+                                    </h6>
+                                    <p class="text-secondary text-truncate">
+                                        Focus with soft study music in the
+                                        background
+                                    </p>
+                                </div>
+                                <div class="bg-dark-subtle p-3 me-4">
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-4.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">Jazz Vibes</h6>
+                                    <p class="text-secondary text-truncate">
+                                        The original chill instrumental beats
+                                    </p>
+                                </div>
+                                <div class="bg-dark-subtle p-3 me-4">
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-5.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">Focus Flow</h6>
+                                    <p class="text-secondary text-truncate">
+                                        Uptempo instrumental hip hop beats
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <div
+                                class="text-white d-flex justify-content-between align-items-center"
+                            >
+                                <a
+                                    href="#"
+                                    class="fs-4 text-decoration-none text-white fw-bolder"
+                                    >Spotify Playlist</a
+                                >
+
+                                <a
+                                    class="text-decoration-none text-secondary"
+                                    href="#"
+                                    >Hiện tất cả</a
+                                >
+                            </div>
+                            <div
+                                class="row p-3 justify-content-around d-none d-md-flex"
+                            >
+                                <div
+                                    class="col-lg-2 list-items col-md-3 bg-dark-subtle p-3"
+                                >
+                                    <img
+                                        class="rounded-2 img-fluid shadow"
+                                        src="./assets/img/page-1/pic-6.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">
+                                        Today's Top Hits
+                                    </h6>
+                                    <p class="text-secondary truncate-2-lines">
+                                        Miley Cyrus is on top of the Hottest 50!
+                                    </p>
+                                </div>
+                                <div
+                                    class="col-lg-2 list-items col-md-3 bg-dark-subtle p-3"
+                                >
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-7.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">RapCaviar</h6>
+                                    <p class="text-secondary truncate-2-lines">
+                                        New music from Metro Boomin, NLE Choppa
+                                        and Rae Sremmurd.
+                                    </p>
+                                </div>
+                                <div
+                                    class="col-lg-2 list-items col-md-3 bg-dark-subtle p-3"
+                                >
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-8.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">
+                                        All Out 2010s
+                                    </h6>
+                                    <p class="text-secondary truncate-2-lines">
+                                        The biggest songs of the 2010s
+                                    </p>
+                                </div>
+                                <div
+                                    class="col-lg-2 list-items col-md-3 bg-dark-subtle p-3"
+                                >
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-9.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">
+                                        Rock Classics
+                                    </h6>
+                                    <p class="text-secondary truncate-2-lines">
+                                        Rock legends & epic songs that continue
+                                        to inspire generations. Cover: Foo
+                                        Fighters
+                                    </p>
+                                </div>
+                                <div
+                                    class="col-lg-2 list-items d-md-none d-lg-block bg-dark-subtle p-3"
+                                >
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-10.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">Chill Hits</h6>
+                                    <p class="text-secondary truncate-2-lines">
+                                        Kick back to the best new and recent
+                                        chill hits.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="carousel p-md-3 p-1 d-block d-sm-block d-lg-none d-md-none"
+                            >
+                                <div class="bg-dark-subtle p-3 me-4">
+                                    <img
+                                        class="rounded-2 img-fluid shadow"
+                                        src="./assets/img/page-1/pic-6.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">
+                                        Today's Top Hits
+                                    </h6>
+                                    <p class="text-secondary text-truncate">
+                                        Miley Cyrus is on top of the Hottest 50!
+                                    </p>
+                                </div>
+                                <div class="bg-dark-subtle p-3 me-4">
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-7.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">RapCaviar</h6>
+                                    <p class="text-secondary text-truncate">
+                                        New music from Metro Boomin, NLE Choppa
+                                        and Rae Sremmurd.
+                                    </p>
+                                </div>
+                                <div class="bg-dark-subtle p-3 me-4">
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-8.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">
+                                        All Out 2010s
+                                    </h6>
+                                    <p class="text-secondary text-truncate">
+                                        The biggest songs of the 2010s
+                                    </p>
+                                </div>
+                                <div class="bg-dark-subtle p-3 me-4">
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-9.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">
+                                        Rock Classics
+                                    </h6>
+                                    <p class="text-secondary text-truncate">
+                                        Rock legends & epic songs that continue
+                                        to inspire generations. Cover: Foo
+                                        Fighters
+                                    </p>
+                                </div>
+                                <div class="bg-dark-subtle p-3 me-4">
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-10.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">Chill Hits</h6>
+                                    <p class="text-secondary text-truncate">
+                                        Kick back to the best new and recent
+                                        chill hits.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <div
+                                class="text-white d-flex justify-content-between align-items-center"
+                            >
+                                <a
+                                    href="#"
+                                    class="fs-4 text-decoration-none text-white fw-bolder"
+                                    >Danh mục</a
+                                >
+
+                                <a
+                                    class="text-decoration-none text-secondary"
+                                    href="#"
+                                    >Hiện tất cả</a
+                                >
+                            </div>
+                            <div
+                                class="row p-3 justify-content-around d-none d-sm-none d-lg-flex d-md-flex"
+                            >
+                                <div
+                                    class="col-lg-2 list-items col-md-3 bg-dark-subtle p-3"
+                                >
+                                    <img
+                                        class="rounded-2 img-fluid shadow"
+                                        src="./assets/img/page-1/pic-11.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">
+                                        Podcast hàng đầu
+                                    </h6>
+                                </div>
+                                <div
+                                    class="col-lg-2 list-items col-md-3 bg-dark-subtle p-3"
+                                >
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-12.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">
+                                        Các câu chuyện
+                                    </h6>
+                                </div>
+                                <div
+                                    class="col-lg-2 list-items col-md-3 bg-dark-subtle p-3"
+                                >
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-13.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">
+                                        Tội phạm có thật
+                                    </h6>
+                                </div>
+                                <div
+                                    class="col-lg-2 list-items col-md-3 bg-dark-subtle p-3"
+                                >
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-14.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">
+                                        Tin tức & Chính trị
+                                    </h6>
+                                </div>
+                                <div
+                                    class="col-lg-2 list-items d-md-none d-lg-block bg-dark-subtle p-3"
+                                >
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-15.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">Hài kịch</h6>
+                                </div>
+                            </div>
+                            <div
+                                class="carousel p-md-3 p-1 d-block d-sm-block d-lg-none d-md-none"
+                            >
+                                <div class="bg-dark-subtle p-3 me-4">
+                                    <img
+                                        class="rounded-2 img-fluid shadow"
+                                        src="./assets/img/page-1/pic-6.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">
+                                        Today's Top Hits
+                                    </h6>
+                                    <p class="text-secondary text-truncate">
+                                        Miley Cyrus is on top of the Hottest 50!
+                                    </p>
+                                </div>
+                                <div class="bg-dark-subtle p-3 me-4">
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-7.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">RapCaviar</h6>
+                                    <p class="text-secondary text-truncate">
+                                        New music from Metro Boomin, NLE Choppa
+                                        and Rae Sremmurd.
+                                    </p>
+                                </div>
+                                <div class="bg-dark-subtle p-3 me-4">
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-8.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">
+                                        All Out 2010s
+                                    </h6>
+                                </div>
+                                <div class="bg-dark-subtle p-3 me-4">
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-9.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">
+                                        Rock Classics
+                                    </h6>
+                                </div>
+                                <div class="bg-dark-subtle p-3 me-4">
+                                    <img
+                                        class="img-fluid rounded-2"
+                                        src="./assets/img/page-1/pic-10.jpg"
+                                        alt=""
+                                    />
+                                    <h6 class="text-white mt-4">Chill Hits</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <script src="./jquery/jquery.min.js"></script>
+        <script src="./carousel/slick.min.js"></script>
+        <script src="./bt5/bootstrap.bundle.min.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>

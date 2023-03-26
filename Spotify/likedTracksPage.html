@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./bt5/bootstrap.min.css" />
+        <link rel="stylesheet" href="./carousel/slick-theme.css" />
+        <link rel="stylesheet" href="./carousel/slick.css" />
+        <title>Spotify - Bài hát đã thích</title>
+        <link
+            rel="icon"
+            href="./assets/img/icons8-spotify-50.png"
+            type="image/x-icon"
+        />
+
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="./sidebar.css" />
+        <title>Document</title>
+    </head>
+    <body id="body-pd">
+        <div class="container-fluid">
+            <header
+                class="header bg-black d-flex align-items-center"
+                id="header"
+            >
+                <div class="row justify-content-between w-100">
+                    <div
+                        class="d-flex col-6 col-md-6 col-lg-6 justify-content-start"
+                    >
+                        <div class="header_toggle">
+                            <i
+                                class="fa-solid fa-bars text-white"
+                                id="header-toggle"
+                            ></i>
+                        </div>
+                        <div class="d-flex ms-3 d-none d-md-flex">
+                            <button class="bg-black border-0 text-white">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+                            <button class="bg-black border-0 text-white">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="col-6 col-md-6 col-lg-6 d-flex align-items-center justify-content-end"
+                    >
+                        <div
+                            class="me-3 d-none d-sm-block d-md-block d-lg-block"
+                        >
+                            <a
+                                href="./signUp.html"
+                                class="p-3 text-decoration-none text-white"
+                            >
+                                Đăng ký
+                            </a>
+                            <a
+                                href="./signIn.html"
+                                class="p-3 text-decoration-none text-white"
+                            >
+                                Đăng nhập
+                            </a>
+                        </div>
+                        <div class="d-block d-sm-none d-md-none d-lg-none">
+                            <button
+                                type="button"
+                                class="btn btn-link position-relative text-white"
+                            >
+                                <i class="fa-solid fa-bell"></i>
+                            </button>
+                        </div>
+
+                        <div
+                            class="dropdown d-block d-sm-none d-md-none d-lg-none"
+                        >
+                            <button
+                                class="btn btn-link text-white"
+                                type="button"
+                                id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                <i class="fa-solid fa-gear"></i>
+                            </button>
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="dropdownMenuButton1"
+                            >
+                                <li>
+                                    <a
+                                        href="./signUp.html"
+                                        class="p-3 text-decoration-none text-white"
+                                    >
+                                        Đăng ký
+                                    </a>
+                                    <a
+                                        href="./signIn.html"
+                                        class="p-3 text-decoration-none text-white"
+                                    >
+                                        Đăng nhập
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="l-navbar bg-black" id="nav-bar">
+                <nav class="nav">
+                    <div>
+                        <a href="#" class="nav_logo">
+                            <i class="fa-brands fa-spotify nav_logo-icon"></i>
+                            <span class="nav_logo-name">Spotify</span>
+                        </a>
+                        <div class="nav_list">
+                            <div>
+                                <a href="./index.html" class="nav_link">
+                                    <i class="fa-solid fa-house nav_icon"></i>
+                                    <span class="nav_name">Trang chủ</span>
+                                </a>
+                                <a href="./searchPage.html" class="nav_link">
+                                    <i
+                                        class="fa-solid fa-magnifying-glass nav_icon"
+                                    ></i>
+                                    <span class="nav_name">Tìm kiếm</span>
+                                </a>
+                                <a href="./libraryPage.html" class="nav_link">
+                                    <i
+                                        class="fa-solid fa-bars-staggered nav_icon"
+                                    ></i>
+                                    <span class="nav_name">Thư viện</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="./playListPage.html" class="nav_link">
+                                    <i
+                                        class="fa-solid fa-square-plus nav_icon"
+                                    ></i>
+                                    <span class="nav_name">Tạo playlist</span>
+                                </a>
+                                <a href="#" class="nav_link active">
+                                    <i class="fa-regular fa-heart nav_icon"></i>
+                                    <span class="nav_name"
+                                        >Bài hát đã thích</span
+                                    >
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!--Container Main start-->
+            <main class="height-100 bg-light">
+                <div class="row bg-dark">
+                    <div
+                        class="p-5 position-relative d-none d-sm-flex liked__songs-title"
+                    >
+                        <button
+                            class="text-secondary bg-dark border-0 p-4 liked__songs-title-btn"
+                        >
+                            <i
+                                class="fa-solid fa-heart fa-4x p-5 text-white"
+                            ></i>
+                        </button>
+
+                        <div class="text-white p-3">
+                            <p class="fw-bolder">Playlist</p>
+                            <h1
+                                class="fw-bolder d-lg-block d-none"
+                                style="font-size: 60px"
+                            >
+                                Bài hát đã thích
+                            </h1>
+                            <h3
+                                class="fw-bolder d-none d-md-block d-lg-none"
+                                style="font-size: 50px"
+                            >
+                                Bài hát đã thích
+                            </h3>
+                            <h6
+                                class="fw-bolder d-none d-sm-block d-md-none"
+                                style="font-size: 30px"
+                            >
+                                Bài hát đã thích
+                            </h6>
+                        </div>
+
+                        <div class="text-white p-3 d-block d-sm-none">
+                            <p class="fw-bolder">Playlist</p>
+                            <h6 class="fw-bolder" style="font-size: 30px">
+                                Bài hát đã thích
+                            </h6>
+                        </div>
+                    </div>
+                    <div
+                        class="d-flex d-sm-none justify-content-between p-5 liked__songs-xs-title"
+                    >
+                        <h1 class="fw-bolder text-white">Bài hát đã thích</h1>
+                    </div>
+
+                    <div class="p-5 liked__songs-content">
+                        <div
+                            class="d-flex align-items-center justify-content-between"
+                        >
+                            <button class="btn btn-success rounded-circle mb-3">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                            <button class="btn btn-dark mb-3 p-0">
+                                <i class="fa-solid fa-shuffle"></i>
+                            </button>
+                        </div>
+
+                        <div
+                            class="row my-3 text-white-50 border-bottom border-secondary"
+                        >
+                            <div class="col-1">#</div>
+                            <div class="col-lg-3 col-md-6 col-9">Tiêu đề</div>
+                            <div class="col-lg-3 col-md-3 d-none d-md-block">
+                                Album
+                            </div>
+                            <div class="col-lg-3 d-none d-lg-block">
+                                Ngày thêm
+                            </div>
+                            <div class="col-1 d-block d-sm-none"></div>
+                            <div class="col-1"></div>
+
+                            <div class="col-1 d-none d-sm-block">
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+                        </div>
+
+                        <div class="position-relative liked__songs-item">
+                            <div
+                                class="row py-2 text-white-50 align-items-center"
+                            >
+                                <div class="col-1 numerical_order">1</div>
+                                <div class="col-1 play_button">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                                <div
+                                    class="col-lg-3 col-md-6 col-9 d-flex align-items-center"
+                                >
+                                    <div>
+                                        <img
+                                            class=""
+                                            src="./assets/img/page-5/pic-1.jpg"
+                                        />
+                                    </div>
+                                    <div class="p-2 text-truncate">
+                                        <p class="text-white m-0 fw-bolder">
+                                            Tình Đắng Như Ly Cà Phê
+                                        </p>
+                                        <span>nân, Ngơ</span>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-lg-3 col-md-3 d-none d-md-block text-truncate"
+                                >
+                                    Tình Đắng Như Ly Cà Phê
+                                </div>
+                                <div class="col-lg-3 d-none d-lg-block">
+                                    9 thg 1,2023
+                                </div>
+                                <div class="col-1 d-block d-sm-none"></div>
+
+                                <div class="col-1">
+                                    <i
+                                        class="fa-solid fa-heart text-success"
+                                    ></i>
+                                </div>
+                                <div class="col-1 d-none d-sm-block">3:35</div>
+                            </div>
+                            <div
+                                class="overlay top-0 start-0 w-100 h-100 position-absolute d-flex align-items-center text-white"
+                            ></div>
+                        </div>
+                        <div class="position-relative liked__songs-item">
+                            <div
+                                class="row py-2 text-white-50 align-items-center position-relative liked"
+                            >
+                                <div class="col-1 numerical_order">2</div>
+                                <div class="col-1 play_button">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                                <div
+                                    class="col-lg-3 col-md-6 col-9 d-flex align-items-center"
+                                >
+                                    <div>
+                                        <img
+                                            class=""
+                                            src="./assets/img/page-5/pic-2.jpg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="p-2 text-truncate">
+                                        <p class="text-white m-0 fw-bolder">
+                                            NO
+                                        </p>
+                                        <span>Meghan Trainor</span>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-lg-3 col-md-3 d-none d-md-block text-truncate"
+                                >
+                                    Thank You (Deluxe Version)
+                                </div>
+                                <div class="col-lg-3 d-none d-lg-block">
+                                    15 thg 12,2022
+                                </div>
+                                <div class="col-1 d-block d-sm-none"></div>
+
+                                <div class="col-1">
+                                    <i
+                                        class="fa-solid fa-heart text-success"
+                                    ></i>
+                                </div>
+                                <div class="col-1 d-none d-sm-block">3:33</div>
+                            </div>
+                            <div
+                                class="overlay top-0 start-0 w-100 h-100 position-absolute d-flex align-items-center text-white"
+                            ></div>
+                        </div>
+                        <div class="position-relative liked__songs-item">
+                            <div
+                                class="row py-2 text-white-50 align-items-center position-relative liked"
+                            >
+                                <div class="col-1 numerical_order">3</div>
+                                <div class="col-1 play_button">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                                <div
+                                    class="col-lg-3 col-md-6 col-9 d-flex align-items-center"
+                                >
+                                    <div>
+                                        <img
+                                            class=""
+                                            src="./assets/img/page-5/pc-3.jpg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="p-2 text-truncate">
+                                        <p class="text-white m-0 fw-bolder">
+                                            High On Life (feat. Bonn)
+                                        </p>
+                                        <span>Martin Garrix, Bonn</span>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-lg-3 col-md-3 d-none d-md-block text-truncate"
+                                >
+                                    High On Life (feat. Bonn)
+                                </div>
+                                <div class="col-lg-3 d-none d-lg-block">
+                                    26 thg 8, 2018
+                                </div>
+                                <div class="col-1 d-block d-sm-none"></div>
+
+                                <div class="col-1">
+                                    <i
+                                        class="fa-solid fa-heart text-success"
+                                    ></i>
+                                </div>
+                                <div class="col-1 d-none d-sm-block">3:50</div>
+                            </div>
+                            <div
+                                class="overlay top-0 start-0 w-100 h-100 position-absolute d-flex align-items-center text-white"
+                            ></div>
+                        </div>
+                        <div class="position-relative liked__songs-item">
+                            <div
+                                class="row py-2 text-white-50 align-items-center position-relative liked"
+                            >
+                                <div class="col-1 numerical_order">4</div>
+                                <div class="col-1 play_button">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+
+                                <div
+                                    class="col-lg-3 col-md-6 col-9 d-flex align-items-center"
+                                >
+                                    <div>
+                                        <img
+                                            class=""
+                                            src="./assets/img/page-5/pic-4.jpg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="p-2 text-truncate">
+                                        <p class="text-white m-0 fw-bolder">
+                                            BOOMBAYAH
+                                        </p>
+                                        <span>BLACKPINK</span>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-lg-3 col-md-3 d-none d-md-block text-truncate"
+                                >
+                                    SQUARE ONE
+                                </div>
+                                <div class="col-lg-3 d-none d-lg-block">
+                                    26 thg 8, 2018
+                                </div>
+
+                                <div class="col-1 d-block d-sm-none"></div>
+
+                                <div class="col-1">
+                                    <i
+                                        class="fa-solid fa-heart text-success"
+                                    ></i>
+                                </div>
+                                <div class="col-1 d-none d-sm-block">4:00</div>
+                            </div>
+                            <div
+                                class="overlay top-0 start-0 w-100 h-100 position-absolute d-flex align-items-center text-white"
+                            ></div>
+                        </div>
+                        <div class="position-relative liked__songs-item">
+                            <div
+                                class="row py-2 text-white-50 align-items-center position-relative liked"
+                            >
+                                <div class="col-1 numerical_order">5</div>
+                                <div class="col-1 play_button">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                                <div
+                                    class="col-lg-3 col-md-6 col-9 d-flex align-items-center"
+                                >
+                                    <div>
+                                        <img
+                                            class=""
+                                            src="./assets/img/page-5/pic-5.jpg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="p-2 text-truncate">
+                                        <p class="text-white m-0 fw-bolder">
+                                            Like I Do
+                                        </p>
+                                        <span
+                                            >David Guetaa, Martin Garrix,
+                                            Brooks</span
+                                        >
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-lg-3 col-md-3 d-none d-md-block text-truncate"
+                                >
+                                    Like I Do
+                                </div>
+                                <div class="col-lg-3 d-none d-lg-block">
+                                    19 thg 3, 2018
+                                </div>
+                                <div class="col-1 d-block d-sm-none"></div>
+
+                                <div class="col-1">
+                                    <i
+                                        class="fa-solid fa-heart text-success"
+                                    ></i>
+                                </div>
+                                <div class="col-1 d-none d-sm-block">3:22</div>
+                            </div>
+                            <div
+                                class="overlay top-0 start-0 w-100 h-100 position-absolute d-flex align-items-center text-white"
+                            ></div>
+                        </div>
+                        <div class="position-relative liked__songs-item">
+                            <div
+                                class="row py-2 text-white-50 align-items-center position-relative liked"
+                            >
+                                <div class="col-1 numerical_order">6</div>
+                                <div class="col-1 play_button">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                                <div
+                                    class="col-lg-3 col-md-6 col-9 d-flex align-items-center"
+                                >
+                                    <div>
+                                        <img
+                                            class=""
+                                            src="./assets/img/page-5/pic-6.jpg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="p-2 text-truncate">
+                                        <p class="text-white m-0 fw-bolder">
+                                            The Spectre
+                                        </p>
+                                        <span>Alan Walker</span>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-lg-3 col-md-3 d-none d-md-block text-truncate"
+                                >
+                                    The Spectre
+                                </div>
+                                <div class="col-lg-3 d-none d-lg-block">
+                                    13 thg 3, 2018
+                                </div>
+                                <div class="col-1 d-block d-sm-none"></div>
+
+                                <div class="col-1">
+                                    <i
+                                        class="fa-solid fa-heart text-success"
+                                    ></i>
+                                </div>
+                                <div class="col-1 d-none d-sm-block">3:13</div>
+                            </div>
+                            <div
+                                class="overlay top-0 start-0 w-100 h-100 position-absolute d-flex align-items-center text-white"
+                            ></div>
+                        </div>
+                        <div class="position-relative liked__songs-item">
+                            <div
+                                class="row py-2 text-white-50 align-items-center position-relative liked"
+                            >
+                                <div class="col-1 numerical_order">7</div>
+                                <div class="col-1 play_button">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                                <div
+                                    class="col-lg-3 col-md-6 col-9 d-flex align-items-center"
+                                >
+                                    <div>
+                                        <img
+                                            class=""
+                                            src="./assets/img/page-5/pic-7.jpg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="p-2 text-truncate">
+                                        <p class="text-white m-0 fw-bolder">
+                                            Stay
+                                        </p>
+                                        <span>Zedd, Alessia Cara</span>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-lg-3 col-md-3 d-none d-md-block text-truncate"
+                                >
+                                    Stay
+                                </div>
+                                <div class="col-3 col-lg-3 d-none d-lg-block">
+                                    13 thg 3, 2018
+                                </div>
+                                <div class="col-1 d-block d-sm-none"></div>
+
+                                <div class="col-1">
+                                    <i
+                                        class="fa-solid fa-heart text-success"
+                                    ></i>
+                                </div>
+                                <div class="col-1 d-none d-sm-block">3:30</div>
+                            </div>
+                            <div
+                                class="overlay top-0 start-0 w-100 h-100 position-absolute d-flex align-items-center text-white"
+                            ></div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <script src="./jquery/jquery.min.js"></script>
+        <script src="./carousel/slick.min.js"></script>
+        <script src="./bt5/bootstrap.bundle.min.js"></script>
+
+        <script src="./script.js"></script>
+    </body>
+</html>

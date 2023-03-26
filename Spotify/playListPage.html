@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./bt5/bootstrap.min.css" />
+        <link rel="stylesheet" href="./carousel/slick-theme.css" />
+        <link rel="stylesheet" href="./carousel/slick.css" />
+        <title>Spotify - Danh sách phát</title>
+        <link
+            rel="icon"
+            href="./assets/img/icons8-spotify-50.png"
+            type="image/x-icon"
+        />
+
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="./sidebar.css" />
+        <title>Document</title>
+    </head>
+    <body id="body-pd">
+        <div class="container-fluid">
+            <header
+                class="header bg-black d-flex align-items-center"
+                id="header"
+            >
+                <div class="row justify-content-between w-100">
+                    <div
+                        class="d-flex col-6 col-md-6 col-lg-6 justify-content-start"
+                    >
+                        <div class="header_toggle">
+                            <i
+                                class="fa-solid fa-bars text-white"
+                                id="header-toggle"
+                            ></i>
+                        </div>
+                        <div class="d-flex ms-3 d-none d-md-flex">
+                            <button class="bg-black border-0 text-white">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+                            <button class="bg-black border-0 text-white">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="col-6 col-md-6 col-lg-6 d-flex align-items-center justify-content-end"
+                    >
+                        <div
+                            class="me-3 d-none d-sm-block d-md-block d-lg-block"
+                        >
+                            <a
+                                href="./signUp.html"
+                                class="p-3 text-decoration-none text-white"
+                            >
+                                Đăng ký
+                            </a>
+                            <a
+                                href="./signIn.html"
+                                class="p-3 text-decoration-none text-white"
+                            >
+                                Đăng nhập
+                            </a>
+                        </div>
+                        <div class="d-block d-sm-none d-md-none d-lg-none">
+                            <button
+                                type="button"
+                                class="btn btn-link position-relative text-white"
+                            >
+                                <i class="fa-solid fa-bell"></i>
+                            </button>
+                        </div>
+
+                        <div
+                            class="dropdown d-block d-sm-none d-md-none d-lg-none"
+                        >
+                            <button
+                                class="btn btn-link text-white"
+                                type="button"
+                                id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                <i class="fa-solid fa-gear"></i>
+                            </button>
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="dropdownMenuButton1"
+                            >
+                                <li>
+                                    <a
+                                        href="./signUp.html"
+                                        class="p-3 text-decoration-none text-white"
+                                    >
+                                        Đăng ký
+                                    </a>
+                                    <a
+                                        href="./signIn.html"
+                                        class="p-3 text-decoration-none text-white"
+                                    >
+                                        Đăng nhập
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="l-navbar bg-black" id="nav-bar">
+                <nav class="nav">
+                    <div>
+                        <a href="#" class="nav_logo">
+                            <i class="fa-brands fa-spotify nav_logo-icon"></i>
+                            <span class="nav_logo-name">Spotify</span>
+                        </a>
+                        <div class="nav_list">
+                            <div>
+                                <a href="./index.html" class="nav_link">
+                                    <i class="fa-solid fa-house nav_icon"></i>
+                                    <span class="nav_name">Trang chủ</span>
+                                </a>
+                                <a href="./searchPage.html" class="nav_link">
+                                    <i
+                                        class="fa-solid fa-magnifying-glass nav_icon"
+                                    ></i>
+                                    <span class="nav_name">Tìm kiếm</span>
+                                </a>
+                                <a href="./libraryPage.html" class="nav_link">
+                                    <i
+                                        class="fa-solid fa-bars-staggered nav_icon"
+                                    ></i>
+                                    <span class="nav_name">Thư viện</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#" class="nav_link active">
+                                    <i
+                                        class="fa-solid fa-square-plus nav_icon"
+                                    ></i>
+                                    <span class="nav_name">Tạo playlist</span>
+                                </a>
+                                <a
+                                    href="./likedTracksPage.html"
+                                    class="nav_link"
+                                >
+                                    <i class="fa-regular fa-heart nav_icon"></i>
+                                    <span class="nav_name"
+                                        >Bài hát đã thích</span
+                                    >
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!--Container Main start-->
+            <main class="height-100 bg-light">
+                <div class="row bg-dark py-5 py-sm-0 pb-sm-5">
+                    <div
+                        class="p-5 position-relative d-none d-sm-flex user__playlist"
+                    >
+                        <button class="text-secondary bg-dark border-0 p-4">
+                            <i class="fa-solid fa-music fa-4x p-5"></i>
+                        </button>
+
+                        <div class="text-white p-3">
+                            <p class="fw-bolder">Playlist</p>
+                            <h1
+                                class="fw-bolder d-lg-block d-none"
+                                style="font-size: 60px"
+                            >
+                                Danh sách phát của tôi #1
+                            </h1>
+                            <h3
+                                class="fw-bolder d-none d-md-block d-lg-none"
+                                style="font-size: 50px"
+                            >
+                                Danh sách phát của tôi #1
+                            </h3>
+                            <h6
+                                class="fw-bolder d-none d-sm-block d-md-none"
+                                style="font-size: 30px"
+                            >
+                                Danh sách phát của tôi #1
+                            </h6>
+                        </div>
+
+                        <div class="text-white p-3 d-block d-sm-none">
+                            <p class="fw-bolder">Playlist</p>
+                            <h6 class="fw-bolder" style="font-size: 30px">
+                                Danh sách phát của tôi #1
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="d-flex d-sm-none justify-content-between">
+                        <h1 class="fw-bolder text-white">
+                            Danh sách phát của tôi #1
+                        </h1>
+                        <i
+                            class="fa-solid fa-ellipsis text-secondary fa-2x"
+                        ></i>
+                    </div>
+
+                    <div class="p-5 d-none d-sm-block">
+                        <i
+                            class="fa-solid fa-ellipsis text-secondary fa-2x"
+                        ></i>
+                    </div>
+
+                    <div
+                        class="p-5 bg-dark border-bottom border-top border-dark-subtle user__playlist-content"
+                    >
+                        <div class="col-lg-8">
+                            <h3 class="text-white">
+                                Hãy cùng tìm nội dung cho danh sách của bạn
+                            </h3>
+
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1"
+                                    ><i class="fa-solid fa-magnifying-glass"></i
+                                ></span>
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Tìm bài hát và tập podcast"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <script src="./jquery/jquery.min.js"></script>
+        <script src="./carousel/slick.min.js"></script>
+        <script src="./bt5/bootstrap.bundle.min.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>

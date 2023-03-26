@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./bt5/bootstrap.min.css" />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <title>Đăng ký - Spotify</title>
+        <link
+            rel="icon"
+            href="./assets/img/icons8-spotify-50.png"
+            type="image/x-icon"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <div class="m-auto text-center mw-500">
+                <div class="p-4">
+                    <img
+                        class="logo"
+                        src="./assets/img/logo.png"
+                        alt=""
+                        width="150px"
+                    />
+                </div>
+                <h4 class="fw-bold p-4">Đăng ký miễn phí để bắt đầu nghe.</h4>
+                <button
+                    class="btn-facebook rounded-5 px-5 py-2 mb-3 text-white fw-bold"
+                    onclick="fbPage()"
+                >
+                    <i class="fa-brands fa-facebook pe-3"></i>
+                    Đăng ký bằng Facebook
+                </button>
+                <button
+                    class="btn-google rounded-5 px-5 py-2 mb-4"
+                    onclick="ggPage()"
+                >
+                    <i class="fa-brands fa-google pe-4"></i>
+                    Đăng ký bằng Google
+                </button>
+                <div class="border-1 w-100 border position-relative mb-4">
+                    <div
+                        class="position-absolute top-0 start-50 translate-middle bg-white p-2 text-muted"
+                    >
+                        hoặc
+                    </div>
+                </div>
+                <h6 class="mb-3">Đăng ký bằng địa chỉ email của bạn</h6>
+                <form
+                    action="
+                "
+                >
+                    <div class="form-group text-start fw-bolder mb-3">
+                        <label class="mb-2" for="email"
+                            >Email của bạn là gì?</label
+                        >
+                        <input
+                            type="email"
+                            class="form-control mb-2"
+                            name="email"
+                            id="email"
+                            placeholder="Nhập email của bạn."
+                            required
+                        />
+                    </div>
+                    <div class="form-group text-start fw-bolder mb-3">
+                        <label class="mb-2" for="confirm-email"
+                            >Xác nhận email của bạn</label
+                        >
+                        <input
+                            type="email"
+                            class="form-control"
+                            name="email"
+                            id="confirm-email"
+                            placeholder="Nhập lại email của bạn."
+                            required
+                        />
+                    </div>
+                    <div class="form-group text-start fw-bolder mb-3">
+                        <label class="mb-2" for="new-password"
+                            >Tạo mật khẩu</label
+                        >
+                        <input
+                            type="password"
+                            class="form-control"
+                            name="new-password"
+                            id="new-password"
+                            placeholder="Tạo mật khẩu."
+                            required
+                        />
+                    </div>
+
+                    <div class="form-group text-start fw-bolder mb-3">
+                        <label class="mb-2" for="name">Bạn tên là gì?</label>
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            class="form-control"
+                            placeholder="Nhập tên hồ sơ."
+                            required
+                        />
+                        <small id="helpId" class="text-muted"
+                            >Tên này sẽ xuất hiện trên hồ sơ của bạn.</small
+                        >
+                    </div>
+
+                    <div class="form-group text-start mb-3">
+                        <label class="mb-2 fw-bolder">Bạn sinh ngày nào?</label>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <label class="text-muted" for="month"
+                                    >Tháng</label
+                                >
+                                <select
+                                    class="form-select"
+                                    name="month"
+                                    id="month"
+                                    required
+                                >
+                                    <option selected>Tháng</option>
+                                    <option value="1">Tháng 1</option>
+                                    <option value="2">Tháng 2</option>
+                                    <option value="3">Tháng 3</option>
+                                    <option value="4">Tháng 4</option>
+                                    <option value="5">Tháng 5</option>
+                                    <option value="6">Tháng 6</option>
+                                    <option value="7">Tháng 7</option>
+                                    <option value="8">Tháng 8</option>
+                                    <option value="9">Tháng 9</option>
+                                    <option value="10">Tháng 10</option>
+                                    <option value="11">Tháng 11</option>
+                                    <option value="12">Tháng 12</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-3">
+                                <label class="text-muted" for="day">Ngày</label>
+                                <input
+                                    type="number"
+                                    class="form-control"
+                                    name="day"
+                                    id="day"
+                                    placeholder="DD"
+                                    min="1"
+                                    max="31"
+                                    required
+                                />
+                            </div>
+                            <div class="col-lg-3">
+                                <label class="text-muted" for="year">Năm</label>
+                                <input
+                                    type="number"
+                                    class="form-control"
+                                    name="year"
+                                    id="year"
+                                    placeholder="YYYY"
+                                    min="0"
+                                    required
+                                />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group text-start mb-4">
+                        <label class="mb-2 fw-bolder" for="gender"
+                            >Giới tính của bạn là gì?</label
+                        >
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input
+                                    type="radio"
+                                    class="form-check-input"
+                                    name="gender"
+                                    id="male"
+                                    value="Nam"
+                                    checked
+                                />
+                                Nam
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input
+                                    type="radio"
+                                    class="form-check-input"
+                                    name="gender"
+                                    id="female"
+                                    value="Nu"
+                                />
+                                Nữ
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input
+                                    type="radio"
+                                    class="form-check-input"
+                                    name="gender"
+                                    id="neutral"
+                                    value="Khong phan biet"
+                                />
+                                Không phân biệt giới tính
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input
+                                    type="radio"
+                                    class="form-check-input"
+                                    name="gender"
+                                    id="others"
+                                    value="Khac"
+                                />
+                                Khác
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input
+                                    type="radio"
+                                    class="form-check-input"
+                                    name="gender"
+                                    id="none"
+                                    value="Khong muon neu cu the"
+                                />
+                                Không muốn nêu cụ thể
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-check text-start mb-4">
+                        <label class="form-check-label">
+                            <input
+                                type="checkbox"
+                                class="form-check-input"
+                                name=""
+                                id=""
+                                value="checkedValue"
+                                checked
+                            />
+                            Chia sẻ dữ liệu đăng ký của tôi với các nhà cung cấp
+                            nội dung của Spotify cho mục đích tiếp thị.
+                        </label>
+                    </div>
+                    <div class="mb-4">
+                        <span
+                            >Bằng việc nhấp vào nút Đăng ký, bạn đồng ý với
+                            <a
+                                href="https://www.spotify.com/vn-vi/legal/end-user-agreement/"
+                                >Điều khoản và điều kiện sử dụng</a
+                            >
+                            của Spotify.</span
+                        >
+                    </div>
+
+                    <a href="./signIn.html"
+                        ><button
+                            type="submit"
+                            class="btn btn-success text-black fw-bolder rounded-5 px-5 py-3 mb-4"
+                        >
+                            Đăng ký
+                        </button></a
+                    >
+                    <p>
+                        Bạn có tài khoản? <a href="./signin.html">Đăng nhập</a>.
+                    </p>
+                </form>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+        <script src="./bt5/bootstrap.min.js"></script>
+        <script src="./bt5/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
