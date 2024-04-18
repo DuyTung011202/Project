@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Learning\\MISA_FRESHER_WEB\\freshermisa\\web202305\\mf1661-ddtung\\aspnetcore\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Domain.Tests\\MISA.WebFresher05.Demo.Domain.Tests.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\Project\\Project\\QLTSPJ\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Domain.Tests\\MISA.WebFresher05.Demo.Domain.Tests.csproj": {}
   },
   "projects": {
-    "D:\\Learning\\MISA_FRESHER_WEB\\freshermisa\\web202305\\mf1661-ddtung\\aspnetcore\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Domain.Tests\\MISA.WebFresher05.Demo.Domain.Tests.csproj": {
+    "C:\\Users\\Admin\\Desktop\\Project\\Project\\QLTSPJ\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Domain.Tests\\MISA.WebFresher05.Demo.Domain.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Learning\\MISA_FRESHER_WEB\\freshermisa\\web202305\\mf1661-ddtung\\aspnetcore\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Domain.Tests\\MISA.WebFresher05.Demo.Domain.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Project\\Project\\QLTSPJ\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Domain.Tests\\MISA.WebFresher05.Demo.Domain.Tests.csproj",
         "projectName": "MISA.WebFresher05.Demo.Domain.Tests",
-        "projectPath": "D:\\Learning\\MISA_FRESHER_WEB\\freshermisa\\web202305\\mf1661-ddtung\\aspnetcore\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Domain.Tests\\MISA.WebFresher05.Demo.Domain.Tests.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\Project\\Project\\QLTSPJ\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Domain.Tests\\MISA.WebFresher05.Demo.Domain.Tests.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Learning\\MISA_FRESHER_WEB\\freshermisa\\web202305\\mf1661-ddtung\\aspnetcore\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Domain.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\Project\\Project\\QLTSPJ\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Domain.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Learning\\MISA_FRESHER_WEB\\freshermisa\\web202305\\mf1661-ddtung\\aspnetcore\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Infrastructure\\MISA.WebFresher05.Demo.Infrastructure.csproj": {
-                "projectPath": "D:\\Learning\\MISA_FRESHER_WEB\\freshermisa\\web202305\\mf1661-ddtung\\aspnetcore\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Infrastructure\\MISA.WebFresher05.Demo.Infrastructure.csproj"
+              "C:\\Users\\Admin\\Desktop\\Project\\Project\\QLTSPJ\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Infrastructure\\MISA.WebFresher05.Demo.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\Project\\Project\\QLTSPJ\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Infrastructure\\MISA.WebFresher05.Demo.Infrastructure.csproj"
               }
             }
           }
@@ -80,23 +80,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Learning\\MISA_FRESHER_WEB\\freshermisa\\web202305\\mf1661-ddtung\\aspnetcore\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Domain\\MISA.WebFresher05.Demo.Domain.csproj": {
+    "C:\\Users\\Admin\\Desktop\\Project\\Project\\QLTSPJ\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Domain\\MISA.WebFresher05.Demo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Learning\\MISA_FRESHER_WEB\\freshermisa\\web202305\\mf1661-ddtung\\aspnetcore\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Domain\\MISA.WebFresher05.Demo.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Project\\Project\\QLTSPJ\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Domain\\MISA.WebFresher05.Demo.Domain.csproj",
         "projectName": "MISA.WebFresher05.Demo.Domain",
-        "projectPath": "D:\\Learning\\MISA_FRESHER_WEB\\freshermisa\\web202305\\mf1661-ddtung\\aspnetcore\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Domain\\MISA.WebFresher05.Demo.Domain.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\Project\\Project\\QLTSPJ\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Domain\\MISA.WebFresher05.Demo.Domain.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Learning\\MISA_FRESHER_WEB\\freshermisa\\web202305\\mf1661-ddtung\\aspnetcore\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\Project\\Project\\QLTSPJ\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -135,23 +149,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Learning\\MISA_FRESHER_WEB\\freshermisa\\web202305\\mf1661-ddtung\\aspnetcore\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Infrastructure\\MISA.WebFresher05.Demo.Infrastructure.csproj": {
+    "C:\\Users\\Admin\\Desktop\\Project\\Project\\QLTSPJ\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Infrastructure\\MISA.WebFresher05.Demo.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Learning\\MISA_FRESHER_WEB\\freshermisa\\web202305\\mf1661-ddtung\\aspnetcore\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Infrastructure\\MISA.WebFresher05.Demo.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Project\\Project\\QLTSPJ\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Infrastructure\\MISA.WebFresher05.Demo.Infrastructure.csproj",
         "projectName": "MISA.WebFresher05.Demo.Infrastructure",
-        "projectPath": "D:\\Learning\\MISA_FRESHER_WEB\\freshermisa\\web202305\\mf1661-ddtung\\aspnetcore\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Infrastructure\\MISA.WebFresher05.Demo.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\Project\\Project\\QLTSPJ\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Infrastructure\\MISA.WebFresher05.Demo.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Learning\\MISA_FRESHER_WEB\\freshermisa\\web202305\\mf1661-ddtung\\aspnetcore\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\Project\\Project\\QLTSPJ\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -168,8 +196,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Learning\\MISA_FRESHER_WEB\\freshermisa\\web202305\\mf1661-ddtung\\aspnetcore\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Domain\\MISA.WebFresher05.Demo.Domain.csproj": {
-                "projectPath": "D:\\Learning\\MISA_FRESHER_WEB\\freshermisa\\web202305\\mf1661-ddtung\\aspnetcore\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Domain\\MISA.WebFresher05.Demo.Domain.csproj"
+              "C:\\Users\\Admin\\Desktop\\Project\\Project\\QLTSPJ\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Domain\\MISA.WebFresher05.Demo.Domain.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\Project\\Project\\QLTSPJ\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Domain\\MISA.WebFresher05.Demo.Domain.csproj"
               }
             }
           }
@@ -212,12 +240,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

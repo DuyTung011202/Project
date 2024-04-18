@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P7aAm7k9iZ8QrMUqfrHOtPBghfXgCutAybWb7aZmkfK08a5ICubz+eREfB2RAPPRVRkSTBpInfPnQt8SRxmOTg==",
+  "dgSpecHash": "uDin9zKlsXuPic0mZgzh+RNK89B4ThohFNzyw89yp6ySpoqVzyRFEDMe+TkSQqkQKu6HErFZR4HXEdbdQjDA6g==",
   "success": true,
-  "projectFilePath": "D:\\Learning\\MISA_FRESHER_WEB\\freshermisa\\web202305\\mf1661-ddtung\\aspnetcore\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Application.Tests\\MISA.WebFresher05.Demo.Application.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\Project\\Project\\QLTSPJ\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Application.Tests\\MISA.WebFresher05.Demo.Application.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -26,7 +26,10 @@
     "C:\\Users\\Admin\\.nuget\\packages\\nunit3testadapter\\4.4.2\\nunit3testadapter.4.4.2.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\Admin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512"
   ],
   "logs": []
 }

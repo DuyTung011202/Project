@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ii+XS7HVx/avfgRxXHrYR1nRZZSJud5qU9476SSg7CmtwkQTewIJniZIqIVrfEgc+PUAaEvKutZrEEc5X/PljQ==",
+  "dgSpecHash": "I0t9be8Bh4NQVq2WQD8ROrfFZUHle3r0HauL84+ev3pE3oW1dcqrZbWeRRB6GmdK+IElybLqdz3bKCQAxXSsrA==",
   "success": true,
-  "projectFilePath": "D:\\Learning\\MISA_FRESHER_WEB\\freshermisa\\web202305\\mf1661-ddtung\\aspnetcore\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Infrastructure\\MISA.WebFresher05.Demo.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\Project\\Project\\QLTSPJ\\MISA.WebFresher05.Demo\\MISA.WebFresher05.Demo.Infrastructure\\MISA.WebFresher05.Demo.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\dapper\\2.0.143\\dapper.2.0.143.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\epplus\\6.2.7\\epplus.6.2.7.nupkg.sha512",
@@ -31,7 +31,10 @@
     "C:\\Users\\Admin\\.nuget\\packages\\system.security.cryptography.pkcs\\6.0.3\\system.security.cryptography.pkcs.6.0.3.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+    "C:\\Users\\Admin\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512"
   ],
   "logs": []
 }
