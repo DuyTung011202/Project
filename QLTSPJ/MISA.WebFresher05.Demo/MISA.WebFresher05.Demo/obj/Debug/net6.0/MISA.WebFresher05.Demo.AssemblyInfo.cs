@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MISA.WebFresher05.Demo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c78777cec6579fd73be75e7b8132ce173f0a2b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1000c1a3dc0df45eae87bafb89c5f89b99004b9")]
 [assembly: System.Reflection.AssemblyProductAttribute("MISA.WebFresher05.Demo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MISA.WebFresher05.Demo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
